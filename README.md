@@ -53,6 +53,7 @@ The following are some of the changes and enhancements from the original:
 | `M-Bksp` | Delete word left |
 | `C-k` | Kill to line end |
 | `C-S-Bksp` | Kill entire line |
+| `C-o` | open-line |
 | `C-w` | Kill region |
 | `M-w` | Copy region to kill ring |
 | `C-y` | Yank |
@@ -109,7 +110,7 @@ The following are some of the changes and enhancements from the original:
 - `ctrl+/`: editor.action.commentLine => **Use `ctrl+;` instead**;
 - `ctrl+p` & `ctrl+e`: workbench.action.quickOpen => **Use `ctrl+x b` instead**;
 - `ctrl+p`: workbench.action.quickOpenNavigateNext => **Use `ctrl+n` instead**.
-
+- `ctrl-o`: workbench.action.files.openFile => **Use `ctrl+x ctrl+f` instead**.
 # More information
 
 The logo is from the great [Pacifica Icon Set](http://bokehlicia.deviantart.com/art/Pacifica-Icons-402508559).
