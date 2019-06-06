@@ -357,7 +357,12 @@
                 "key": "ctrl+j",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
-            },
+			},
+			{
+				"key": "ctrl+o",
+				"command": "editor.action.insertLineBefore",
+				"when": "editorTextFocus && !editorReadonly"
+			},			
             {
                 "key": "ctrl+x ctrl+o",
                 "command": "emacs.C-x_C-o",
