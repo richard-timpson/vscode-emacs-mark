@@ -3,7 +3,7 @@
     "displayName": "Emacs Friendly Keymap",
     "description": "Emacs keybindings and selection, friendly interaction with the system clipboard.",
     "icon": "emacs_pacifica.png",
-    "version": "0.8.3",
+    "version": "0.9.0",
     "publisher": "lfs",
     "homepage": "https://github.com/SebastianZaha/vscode-emacs-friendly",
     "repository": {
@@ -357,12 +357,12 @@
                 "key": "ctrl+j",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
-			},
-			{
-				"key": "ctrl+o",
-				"command": "editor.action.insertLineBefore",
-				"when": "editorTextFocus && !editorReadonly"
-			},			
+            },
+            {
+                "key": "ctrl+o",
+                "command": "editor.action.insertLineBefore",
+                "when": "editorTextFocus && !editorReadonly"
+            },
             {
                 "key": "ctrl+x ctrl+o",
                 "command": "emacs.C-x_C-o",
@@ -382,7 +382,7 @@
                 "key": "ctrl+x h",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
-			},
+            },
             {
                 "key": "ctrl+x u",
                 "command": "emacs.C-/",
@@ -392,27 +392,31 @@
                 "key": "ctrl+x u",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
-			},
-			{
-				"key": "ctrl+/",
-				"command": "emacs.C-/",
-				"when": "editorTextFocus && !editorReadonly"
-			},
-			{
-				"key": "ctrl+/",
-				"command": "closeFindWidget",
-				"when": "editorFocus && findWidgetVisible"
-			},
-			{
-				"key": "ctrl+_",
-				"command": "emacs.C-/",
-				"when": "editorTextFocus && !editorReadonly"
-			},
-			{
-				"key": "ctrl+_",
-				"command": "closeFindWidget",
-				"when": "editorFocus && findWidgetVisible"
-			},
+            },
+            {
+                "key": "ctrl+/",
+                "command": "emacs.C-/",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+/",
+                "command": "closeFindWidget",
+                "when": "editorFocus && findWidgetVisible"
+            },
+            {
+                "key": "ctrl+shift+-",
+                "command": "emacs.C-/",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+_",
+                "command": "closeFindWidget",
+                "when": "editorFocus && findWidgetVisible"
+            },
+            {
+                "key": "ctrl+x r",
+                "command": "workbench.action.openRecent"
+            },
 			{
                 "key": "ctrl+x z",
                 "command": "workbench.action.toggleZenMode"
@@ -675,9 +679,9 @@
     "devDependencies": {
         "@types/mocha": "^2.2.41",
         "@types/node": "^6.0.81",
-        "mocha": "^3.4.2",
+        "mocha": "^6.1.4",
         "typescript": "^2.4.1",
-        "vscode": "^1.1.4"
+        "vscode": "^1.1.34"
     },
     "dependencies": {}
 }

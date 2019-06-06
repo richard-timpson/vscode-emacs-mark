@@ -76,6 +76,7 @@ The following are some of the changes and enhancements from the original:
 | `M-x` | Open command palette |
 | `C-M-SPC` | Toggle SideBar visibility |
 | `C-x z` | | Toggle Zen Mode |
+| `C-x r` | | Open Recent |
 
 ### File Commands
 |Command | Desc |
@@ -113,6 +114,7 @@ The following are some of the changes and enhancements from the original:
 - `ctrl+p` & `ctrl+e`: workbench.action.quickOpen => **Use `ctrl+x b` instead**;
 - `ctrl+p`: workbench.action.quickOpenNavigateNext => **Use `ctrl+n` instead**.
 - `ctrl+o`: workbench.action.files.openFile => **Use `ctrl+x ctrl+f` instead**.
+- `ctrl+r`: workbench.action.openRecent => **Use `ctrl+x r` instead**.
 
 # More information
 

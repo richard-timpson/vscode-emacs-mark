@@ -1,5 +1,12 @@
-## 0.8.3 (2019-06-06)
-- FIX work with remove development
+## 0.9.0 (2019-05-06)
+- Fixed focus and movement keys interaction when find widget is open
+- Fixed movement keys in terminal
+- Bound Ctrl-o to insert line before
+- Fixed multi-cursor handling and Ctrl-g
+- Fixed remote development issues caused by clipboardy
+- Added C-_ as undo
+- Added C-x r as open recent (was C-r and overridden)
+- Fixed split window behavior to better resemble emacs
 
 ## 0.8.2 (2017-10-09)
 - Fix replaceOne shortcut to correctly only replace the currently selected match

@@ -110,9 +110,10 @@ export class Editor {
 		vscode.commands.executeCommand("emacs.exitMarkMode")
 	}
 
-	cut(appendClipboard?: boolean): Thenable<boolean> {
+	async cut(appendClipboard?: boolean): Promise<boolean> {
 		if (appendClipboard) {
-			vscode.env.clipboard.writeText(vscode.env.clipboard.readText() + this.getSelectionText())
+			const text = await vscode.env.clipboard.readText();
+			vscode.env.clipboard.writeText(text + this.getSelectionText())
 		} else {
 			vscode.env.clipboard.writeText(this.getSelectionText())
 		}
