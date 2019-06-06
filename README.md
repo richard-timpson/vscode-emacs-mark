@@ -61,7 +61,7 @@ The following are some of the changes and enhancements from the original:
 | `C-m` | Enter |
 | `C-x C-o` | Delete blank lines around |
 | `C-x h` | Select All |
-| `C-x u` (`C-/`)| Undo |
+| `C-x u` (`C-/`, `C-_`)| Undo |
 | `C-;` | Toggle line comment in and out |
 | `M-;` | Toggle region comment in and out |
 | `C-x C-l` | Convert to lower case |

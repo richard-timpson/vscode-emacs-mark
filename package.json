@@ -382,30 +382,40 @@
                 "key": "ctrl+x h",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
-            },
+			},
             {
                 "key": "ctrl+x u",
-                "command": "emacs.C-x_u",
-                "when": "editorTextFocus && !editorReadonly"
-            },
-            {
-                "key": "ctrl+x u",
-                "command": "closeFindWidget",
-                "when": "editorFocus && findWidgetVisible"
-            },
-            {
-                "key": "ctrl+x z",
-                "command": "workbench.action.toggleZenMode"
-            },
-            {
-                "key": "ctrl+/",
                 "command": "emacs.C-/",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "ctrl+/",
+                "key": "ctrl+x u",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
+			},
+			{
+				"key": "ctrl+/",
+				"command": "emacs.C-/",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"key": "ctrl+/",
+				"command": "closeFindWidget",
+				"when": "editorFocus && findWidgetVisible"
+			},
+			{
+				"key": "ctrl+_",
+				"command": "emacs.C-/",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"key": "ctrl+_",
+				"command": "closeFindWidget",
+				"when": "editorFocus && findWidgetVisible"
+			},
+			{
+                "key": "ctrl+x z",
+                "command": "workbench.action.toggleZenMode"
             },
             {
                 "key": "ctrl+;",

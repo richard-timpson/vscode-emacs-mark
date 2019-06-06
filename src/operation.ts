@@ -22,10 +22,6 @@ export class Operation {
             "C-x_C-o": () => {
                 this.editor.deleteBlankLines();
             },
-            "C-x_u": () => {
-                this.editor.undo();
-                this.editor.setStatusBarMessage("Undo!");
-            },
             "C-/": () => {
                 this.editor.undo();
                 this.editor.setStatusBarMessage("Undo!");
