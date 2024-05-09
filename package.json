@@ -1,16 +1,16 @@
 {
-    "name": "vscode-emacs-friendly",
-    "displayName": "Emacs Friendly Keymap",
-    "description": "Emacs keybindings and selection, friendly interaction with the system clipboard.",
+    "name": "vscode-emacs-set-mark",
+    "displayName": "Emacs Set Mark",
+    "description": "Emacs set mark command capability, along with some other simply emacs commands like kill and yank",
     "icon": "emacs_pacifica.png",
     "version": "0.9.0",
     "publisher": "lfs",
-    "homepage": "https://github.com/SebastianZaha/vscode-emacs-friendly",
+    "homepage": "https://github.com/richard-timpson/vscode-emacs-mark",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SebastianZaha/vscode-emacs-friendly"
+        "url": "https://github.com/richard-timpson/vscode-emacs-mark"
     },
-    "bugs": "https://github.com/SebastianZaha/vscode-emacs-friendly/issues",
+    "bugs": "https://github.com/richard-timpson/vscode-emacs-mark/issues",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -680,7 +680,7 @@
         "@types/mocha": "^2.2.41",
         "@types/node": "^6.0.81",
         "mocha": "^6.1.4",
-        "typescript": "^2.4.1",
+        "typescript": "^5.0.4",
         "vscode": "^1.1.34"
     },
     "dependencies": {}
